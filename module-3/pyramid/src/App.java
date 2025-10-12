@@ -1,5 +1,5 @@
 // Author: Hugo Ramirez Jr.
-// Date: 2024-06-10
+// Date: 10/05/2025
 // Description: This program prints a triangle of numbers with an @ symbol at designated column.
 public class App {
     public static void main(String[] args) {
