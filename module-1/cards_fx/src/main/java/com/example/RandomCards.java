@@ -1,3 +1,9 @@
+/**
+ * @author Hugo Ramirez Jr.
+ * @date 12/7/2025
+ * Module 1 - Card Shuffle FX
+ * @description A JavaFX application that displays four random playing cards
+ */
 package com.example;
 import java.util.Random;
 import javafx.application.Application;
@@ -35,8 +41,8 @@ public class RandomCards extends Application {
 
     // Use BorderPane to arrange layout
     BorderPane root = new BorderPane();
-    root.setCenter(cardPane);   // cards in the middle
-    root.setBottom(buttonBox);  // button at bottom center
+    root.setCenter(cardPane);   
+    root.setBottom(buttonBox); 
 
     // Create Scene, place in Stage
     Scene scene = new Scene(root, 400, 300);
