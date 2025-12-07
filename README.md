@@ -1,2 +1,2 @@
 # CSD-402
-Bellevue Java for Programmers Class
+Bellevue Advanced Java Programming
