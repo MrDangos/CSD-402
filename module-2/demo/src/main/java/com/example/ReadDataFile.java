@@ -1,0 +1,26 @@
+package com.example;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class ReadDataFile {
+
+    public static void main(String[] args) {
+        try {
+            File file = new File("Hugo_datafile.dat");
+            Scanner scanner = new Scanner(file);
+
+            System.out.println("Reading data from file:\n");
+
+            while (scanner.hasNextLine()) {
+                System.out.println(scanner.nextLine());
+            }
+
+            scanner.close();
+
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found.");
+            e.printStackTrace();
+        }
+    }
+}
