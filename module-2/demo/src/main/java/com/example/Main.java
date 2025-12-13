@@ -1,3 +1,10 @@
+/**
+ * @author Hugo Ramirez Jr.
+ * @date 12/12/2025
+ * Module 2 - Read and Write Data Files
+ * @description This program generates random integers and doubles,
+ * writes them to a data file, and includes a separate class to read and display the data
+ */
 package com.example;
 import java.io.FileWriter;
 import java.io.IOException;
