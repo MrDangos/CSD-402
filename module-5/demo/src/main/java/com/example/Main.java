@@ -1,5 +1,12 @@
 package com.example;
-
+/**
+ * @author Hugo Ramirez Jr.
+ * @date 01/23/2026
+ * @Module_5 - Word Sorting 
+ * @description this program reads a collection of words from a text file,
+ * stores them in a TreeSet to automatically sort them in ascending order,
+ * and then displays the sorted words in both ascending and descending order.
+ */
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
